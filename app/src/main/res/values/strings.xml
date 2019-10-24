@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">About me</string>
+    <string name="biqName">How Wei Ren</string>
+    <string name="pfpPic">Profile Picture</string>
+    <string name="profileDesc">
+        Hi, my name is Nguyen Churist.
+        Education:\n
+        \n\tSJK(C)Chong Hwa, Setapak\n
+        \n\tSMJK Chong Hwa, Gombak\n
+        \n\tTAR UC, Kuala Lumpur\n
+        \nWorking Experiences:\n
+        \n\tCustomer Service Associative in retail\n
+
+    </string>
+</resources>
