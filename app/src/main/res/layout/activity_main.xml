@@ -15,6 +15,35 @@
         app:fontFamily="@font/roboto_mono_bold_italic"
         style="@style/my_dicks_style" />
 
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/my_dicks_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/buttonColor"
+        android:text="@string/doneBtn"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:fontFamily="@font/roboto_mono_bold_italic"
+        />
+
+    <TextView
+        android:id="@+id/textViewNickNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -25,7 +54,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

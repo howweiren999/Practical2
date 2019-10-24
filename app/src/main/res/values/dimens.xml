@@ -2,4 +2,5 @@
 <resources>
     <dimen name="layout_padding">8dp</dimen>
     <dimen name="text_size">32sp</dimen>
+    <dimen name="layout_margin">8dp</dimen>
 </resources>
